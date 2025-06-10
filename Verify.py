@@ -10,7 +10,7 @@ ToolAPI.GetFileSignature.restype = ctypes.c_int
 ToolAPI.DeleteBuffer.argtypes = [ctypes.c_char_p, ctypes.c_char_p,ctypes.c_size_t]
 ToolAPI.DeleteBuffer.restype = ctypes.c_int
 
-filename =  "C:\\codes\\getsigner\\123\\tmactmon.sys"
+filename =  "C:\\windows\\system32\\drivers\\afd.sys"
 bytes_filename =  filename.encode() # convert to bytes
 
 result = ctypes.create_string_buffer(1000)
